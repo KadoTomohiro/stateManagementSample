@@ -1,0 +1,13 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+app-todo-tab-grooup {
+  margin: 0.5em;
+}
+
+app-todo-form {
+  margin: 0.5em;
+}
