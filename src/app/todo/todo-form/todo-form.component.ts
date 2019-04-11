@@ -19,7 +19,7 @@ export class TodoFormComponent implements OnInit {
   }
 
   addTask() {
-    if (this.newTask.valid) {
+    if (this.newTask.invalid) {
       // Invalid処理が必要ならここに書く
       return;
     }
